@@ -455,47 +455,20 @@ footer {
   
   /*-------------------- MEDIA QUERY (medium) --------------------------------*/
   @media (min-width: 620px) {
-   /*  .recipe {
-        flex-direction: column;
-        align-items: center;
+    .side-dish-container {
+        display: flex;
     }
-
-    .recipe-actions {
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        border-right: none;
-        border-bottom: 2px solid #EB5428;
+    
+    .side-dish {
+        flex: 10%;
     }
-
-    .recipe-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .recipe-content img {
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .recipe-content article {
-        text-align: center;
-    }
-}
-
-.side-dish-container {
-    flex-direction: column;
-    align-items: center; */
 }
   /*-------------------- MEDIA QUERY (large) ------------------------------------*/
-  /*  min-width: 950px  */
   @media (min-width: 950px) {
   
   }
   
   /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-  /*  min-width: 1280px  */
   @media (min-width: 1280px) {
 
   }
